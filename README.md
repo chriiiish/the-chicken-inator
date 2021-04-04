@@ -16,11 +16,12 @@ Normally I'd do this by triggering a lambda to process the file post-upload, but
 ## Getting Started
 <details>
     <summary>You will need</summary>
-
-    1. An [AWS Account](https://aws.amazon.com/free/) to spin up the resources inside
-    2. [AWS CDK installed](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
-    3. [AWS CLI installed](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
-    4. Your AWS CLI configured to use your AWS account
+    <p>
+        <li>An <a href="https://aws.amazon.com/free/">AWS Account</a> to spin up the resources inside</li>
+        <li><a href="https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html">AWS CDK installed</a></li>
+        <li><a href="https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html">AWS CLI installed</a></li>
+        <li>Your AWS CLI configured to use your AWS account</li>
+    </p>
 </details>
 
 <details>
