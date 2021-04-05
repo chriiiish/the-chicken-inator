@@ -1,6 +1,8 @@
 # the-chicken-inator
 Stores files, but when retrieving them replaces the words with the word "chicken"
 
+> :warning: **Current Status**: AWS CDK, even CloudFormation doesn't have functionality to add Object Lambda Access Points, so this is paused until that's done...
+
 ![](docs/doofenshmirtz_inator.jpg)
 ## BEHOLD MY CHICKEN-INATOR
 Retrieving files is a tedious task. All those words - so many words, Perry. So I thought to myself, what if all the words were... CHICKEN. Now when anyone pulls a file from this S3 bucket ALL THE WORDS. WILL BE TURNED. INTO CHICKEN.
@@ -30,11 +32,38 @@ Normally I'd do this by triggering a lambda to process the file post-upload, but
     //TODO
 </details>
 
+## Get your development space setup
+
+Create the Python Virtual Environment:
+
+```
+$ python3 -m venv .venv
+```
+
+After the init process completes and the virtualenv is created, you can use the following
+step to activate your virtualenv.
+
+```
+$ source .venv/bin/activate
+```
+
+If you are a Windows platform, you would activate the virtualenv like this:
+
+```
+% .venv\Scripts\activate.bat
+```
+
+Once the virtualenv is activated, you can install the required dependencies.
+
+```
+$ pip install -r requirements.txt
+```
+
 ## Use it to chicken-ify things
 
 // Gif goes here
 
-//TODO
+// Instructions
 
 ## Add more file types
 
